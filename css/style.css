@@ -28,7 +28,7 @@ body {
 }
 
 
-/* container */
+/* container & form */
 
 .container {
   display: flex;
@@ -51,4 +51,13 @@ body {
   background: var(--clr-salmon);
   width: 25vw;
   height: 15vw;
+}
+
+.alert {
+  display: none;
+}
+
+.display-alert {
+  display: block;
+  color: red;
 }
