@@ -48,16 +48,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: var(--clr-secondary);
   width: 50vw;
-  height: 30vw;
+  height: 800px;
+
 }
 
 #form {
   background: var(--clr-salmon);
   width: 40vw;
   height: 15vw;
+  margin-top: 1.5rem;
 }
 
 .alert {
@@ -95,7 +97,7 @@ body {
 /* buttons */
 
 .btn-container {
-  flex: 1 1 1 auto;
+  flex: 1 1 auto;
   position: relative;
 }
 
@@ -128,8 +130,15 @@ body {
 
 /* output list */
 
+.list-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .item-list {
   margin-bottom: 0.4rem;
+  margin-top: 2rem;
   text-align: center;
   line-height: 1.5;
 }
@@ -143,4 +152,24 @@ body {
 .item-name {
   font-size: 1.6rem;
   text-transform: uppercase;
+  padding-right: 0.7rem;
+}
+
+.item-icons {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+.fa-edit {
+  color: blue;
+}
+
+.fa-times-circle {
+  color: red;
 }

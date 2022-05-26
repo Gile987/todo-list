@@ -58,9 +58,9 @@ const getList = todoItems => {
   todoItems.forEach(item => {
     // use beforeend parameter to insert items after last child
     itemList.insertAdjacentHTML('beforeend', `<div class="item"><h5 class="item-name">${item}</h5>
-      <div class="item-icons"><a href="#" class="complete-item item-icon"><i class="far fa-check-circle"></i>
-      </a><a href="#" class="edit-item item-icon"><i class="far fa-edit"></i></a>
-      <a href="#" class="delete-item item-icon"><i class="far fa-times-circle"></i></a></div></div>`);
+      <div class="item-icons"><a href="#" class="complete-item item-icon"><i class="fa fa-check-circle"></i>
+      </a><a href="#" class="edit-item item-icon"><i class="fa fa-edit"></i></a>
+      <a href="#" class="delete-item item-icon"><i class="fa fa-times-circle"></i></a></div></div>`);
     handleItem(item);
   });
 };
